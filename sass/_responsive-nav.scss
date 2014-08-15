@@ -1,0 +1,221 @@
+// media queries
+$mobile: 767px;
+$tablet: 768px;
+$small: 992px;
+$large: 1200px;
+
+/* ------------------------------------------
+  NAV TOGGLE STYLES
+--------------------------------------------- */
+
+@font-face {
+  font-family: "responsivenav";
+  src:url("../icons/responsivenav.eot");
+  src:url("../icons/responsivenav.eot?#iefix") format("embedded-opentype"),
+    url("../icons/responsivenav.ttf") format("truetype"),
+    url("../icons/responsivenav.woff") format("woff"),
+    url("../icons/responsivenav.svg#responsivenav") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav-toggle {
+  position: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  text-indent: -999px;
+  position: relative;
+  overflow: hidden;
+  width: 70px;
+  height: 55px;
+  float: right;
+  top: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-toggle:before {
+  color: #fff; /* Edit this to change the icon color */
+  font-family: "responsivenav", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 28px;
+  text-transform: none;
+  position: absolute;
+  content: "≡";
+  text-indent: 0;
+  text-align: center;
+  line-height: 55px;
+  speak: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-toggle.active::before {
+  font-size: 24px;
+  content:"x";
+}
+
+
+
+/*=============================================
+=                 NAVIGATION                  =
+=============================================*/
+
+
+/*! responsive-nav.js 1.0.32 by @viljamis */
+
+.nav-collapse > ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+   -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.nav-collapse li {
+  width: 100%;
+  display: block;
+}
+.nav-collapse li a {
+  font-size: 18px;  
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.disable-pointer-events {
+  pointer-events: none !important;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@media screen and (min-width: $tablet) {
+  .js .nav-collapse {
+    position: relative;
+    overflow: visible;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
+
+
+
+/* ------------------------------------------
+  NAVIGATION STYLES
+--------------------------------------------- */
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-collapse,
+.nav-collapse * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav-collapse,
+.nav-collapse > ul {
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+
+.nav-collapse li {
+  float: left;
+}
+
+@media screen and (min-width: $tablet) {
+  .nav-collapse li {
+    width: auto;
+  }
+}
+
+.nav-collapse a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  background: #60B1DE;
+  padding: 10px;
+  float: left;
+  border-bottom: 1px solid #3E96C7;
+  transition: all 500ms ease;
+}
+
+@media screen and (max-width: $mobile) {
+.nav-collapse a {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .nav-collapse {
+      float: right;
+      width: auto;
+      margin-top: 20px;
+      margin-bottom: 60px;
+      border-top: 1px solid #FFF;
+      position: relative;
+    }
+    .nav-collapse a {
+        margin: 0;
+        float: left;
+        text-align: center;
+        border-bottom: 1px solid transparent;
+        background: none;
+      }
+    .nav-collapse a:hover {
+        color: #000;
+        border-bottom: 1px solid #FFF;
+        // background: #60B1DE;
+      }
+    .nav-collapse .lang a:hover {
+        border-bottom: transparent;
+        background: #60B1DE;
+      }
+  }
+
+@media screen and (min-width: $small) {
+  .nav-collapse {
+    margin-bottom: 20px;
+  }
+}
