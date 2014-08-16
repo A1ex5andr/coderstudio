@@ -45,6 +45,7 @@ $colorBlueButShdow: #4b8ece;
 $colorCyan: #6CDCF6;
 $colorGray: #D1D1D1;
 $colorGraybodyText: #333333;
+$blackie: #111111;
 
 $headAnimDealy: 0.5s;
 
@@ -84,31 +85,30 @@ a {
 }
 
 .noSelection {
-  -webkit-user-select: none; /* Chrome all / Safari all */
-  -moz-user-select: none; /* Firefox all */
-  -ms-user-select: none; /* IE 10+ */
-  /* No support for these yet, use at own risk */
-  -o-user-select: none;
-  user-select: none;
+//  -webkit-user-select: none; /* Chrome all / Safari all */
+//  -moz-user-select: none; /* Firefox all */
+//  -ms-user-select: none; /* IE 10+ */
+//  /* No support for these yet, use at own risk */
+//  -o-user-select: none;
+//  user-select: none;
 }
 
 @mixin button {
   display: inline-block;
   margin: 10px;
   padding: 10px 20px;
-  background-color: $colorBlueBut;
   border-color: $colorBlueButShdow;
   border-right: 2px solid;
   border-bottom: 2px solid;
-  color: $colorWhite;
   cursor: pointer;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
   transition: all 500ms ease;
-  color: #111;
+  color: $blackie;
   background-color: $colorYellow;
   border-color: $colorYellow+-100;
+  outline: 0;
 }
 
 .aTitle {
@@ -363,7 +363,6 @@ a {
 
 .contactWrap {
   overflow: hidden;
-  background: #90D0FF;
   background: #90D0FF url("../img/bg_geo.png") left top repeat;
   border-top: 2px solid $colorDarkBlue;
   position: relative;
@@ -382,26 +381,24 @@ a {
   position: absolute;
   p {
     padding: 0 18px 18px 18px;
-    // color: #FFF;
     font-size: 32px;
     font-weight: 700;
     min-height: 160px;
-
+    span {
+      color: #fff;
+    }
   }
 }
 
 .contactForm {
-  // border-bottom: 8px solid #9bc3df;
-  // background: #a7d1f0;
+  position: relative;
   padding-bottom: 20px;
   margin-top: 15px;
   &-input {
     margin-left: 18px;
     left: 0;
-    width: 50%;
-    min-width: 200px;
-    max-width: 320px;
-    padding: 2px 12px;
+    width: 211px;
+    padding: 2px 62px 2px 12px;
     background: $colorAntic;
     color: #004054;
     line-height: 40px;
@@ -413,11 +410,13 @@ a {
   &-submit {
     @include button;
     margin: 0;
-    padding: 15px;
-    outline: 0;
+    padding: 9px 14px;
+    font-size: 22px;
     border-top: 0;
     border-left: 0;
-    background: $colorYellow;
+    position: absolute;
+    top: 3px;
+    left: 252px;
   }
 }
 
@@ -600,9 +599,6 @@ footer {
     p {
       min-height: 0;
       font-size: 38px;
-      span {
-        color: #fff;
-      }
     }
   }
   .contactForm {

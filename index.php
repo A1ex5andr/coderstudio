@@ -663,7 +663,7 @@
 				</p>
 				<form action="#" method="POST" class="contactForm">
 	                <input type="text" class="contactForm-input" name="email" id="email" placeholder="e-mail или телефон" required="">
-	               <button class="contactForm-submit" type="submit">отправить</button>
+	               <button class="contactForm-submit" type="submit"><i class="fa fa-paper-plane-o"></i></button>
 	            </form>
 			</div>
 			<div class="contactBgWrap">

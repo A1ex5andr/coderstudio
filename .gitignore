@@ -1,5 +1,4 @@
-# Created by .gitignore support plugin (hsz.mobi)
 config.rb
 !tmp/
 .idea/
-sass/.sass-cache
+sass/.sass-cache/
