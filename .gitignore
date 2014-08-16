@@ -2,3 +2,4 @@
 config.rb
 !tmp/
 .idea/
+sass/.sass-cache

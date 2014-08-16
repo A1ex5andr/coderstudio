@@ -724,7 +724,8 @@ a {
   padding-left: 0.41667%;
   padding-right: 0.41667%; }
 .adv-item {
-  padding: 20px 0 0 0; }
+  padding: 20px 0 0 0;
+  position: relative; }
   .adv-item img {
     width: 100px;
     height: 100px;

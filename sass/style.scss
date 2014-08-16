@@ -202,6 +202,7 @@ a {
   }
   &-item {
     padding: 20px 0 0 0;
+    position: relative;
     img {
       width: 100px;
       height: 100px;
@@ -209,30 +210,6 @@ a {
       display: block;
     }
   }
-  //	&-html5{
-  //		-webkit-animation-delay: $headAnimDealy;
-  //		animation-delay: $headAnimDealy;
-  //	}
-  //	&-css3{
-  //		-webkit-animation-delay: $headAnimDealy * 2;
-  //		animation-delay: $headAnimDealy * 2;
-  //	}
-  //	&-javascript{
-  //		-webkit-animation-delay: $headAnimDealy * 3;
-  //		animation-delay: $headAnimDealy * 3;
-  //	}
-  //	&-wordpress{
-  //		-webkit-animation-delay: $headAnimDealy * 4;
-  //		animation-delay: $headAnimDealy * 4;
-  //	}
-  //	&-php{
-  //		-webkit-animation-delay: $headAnimDealy * 5;
-  //		animation-delay: $headAnimDealy * 5;
-  //	}
-  //	&-mysql{
-  //		-webkit-animation-delay: $headAnimDealy * 6;
-  //		animation-delay: $headAnimDealy * 6;
-  //	}
 }
 
 
@@ -254,22 +231,6 @@ a {
   h2 {
     color: $colorWhite;
   }
-  //	&_1{
-  //		-webkit-animation-delay: $headAnimDealy * 7;
-  //		animation-delay: $headAnimDealy * 7;
-  //	}
-  //	&_2{
-  //		-webkit-animation-delay: $headAnimDealy * 8;
-  //		animation-delay: $headAnimDealy * 8;
-  //	}
-  //	&_3{
-  //		-webkit-animation-delay: $headAnimDealy * 9;
-  //		animation-delay: $headAnimDealy * 9;
-  //	}
-  //	&_4{
-  //		-webkit-animation-delay: $headAnimDealy * 10;
-  //		animation-delay: $headAnimDealy * 10;
-  //	}
 }
 
 .techs {

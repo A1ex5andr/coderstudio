@@ -12,6 +12,7 @@
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/responsive-nav.js"></script>
     <script src="js/jquery.matchHeight-min.js"></script>
+    <script src="js/jquery.color.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
@@ -88,10 +89,10 @@
 				</div>
 			</div>
 			<div class="slogan">
-				<h1 class=" slogan_1 bounceInLeft">Веб Дизайн</h1>
-				<h1 class=" slogan_2 bounceInRight">и Разработка</h1>
-				<h2 class=" slogan_3 bounceInLeft">ваши задачи</h2>
-				<h2 class=" slogan_4 bounceInRight">наш код!</h2>
+				<h1 class="slogan_1">Веб Дизайн</h1>
+				<h1 class="slogan_2">и Разработка</h1>
+				<h2 class="slogan_3">ваши задачи</h2>
+				<h2 class="slogan_4">наш код!</h2>
 			</div>
 		</section>
 	</header>

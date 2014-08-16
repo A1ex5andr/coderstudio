@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+    //hide adv icons
+    function hideIt(){
+        $('.adv-item').css('opacity', 0);
+        $('.adv-item').css('right', '-300px');
+    }
+    hideIt();
+
     // responsive navigation
     var nav = responsiveNav(".nav-collapse", { // Selector
         animate: true, // Boolean: Use CSS3 transitions, true or false
@@ -36,6 +43,49 @@ $(document).ready(function() {
     });
 
 });
+
+$(window).load(function() {
+
+    // show hidden
+    $('.adv-html5').animate({
+        opacity: 1,
+        right: "+=300"
+    }, 500, function() {
+        $('.adv-css3').animate({
+            opacity: 1,
+            right: "+=300"
+        }, 500, function() {
+            $('.adv-javascript').animate({
+                opacity: 1,
+                right: "+=300"
+            }, 500, function() {
+                $('.adv-wordpress').animate({
+                    opacity: 1,
+                    right: "+=300"
+                }, 500, function() {
+                    $('.adv-php').animate({
+                        opacity: 1,
+                        right: "+=300"
+                    }, 500, function() {
+                        $('.adv-mysql').animate({
+                            opacity: 1,
+                            right: "+=300"
+                        }, 500, function() {
+                            $('.slogan h1').animate({
+                               color: '#ffffff'
+                            }, 500, function() {
+                                $('.slogan h2').animate({
+                                    color: "#000000"
+                                }, 500);
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    });
+
+})
 
 
 
