@@ -675,7 +675,7 @@
 
 	<footer>
 		<div class="container">
-            <p> 2012 - 2014 © CODERSTUDIO</p>
+            <p>&#169; 2012 - 2014</p>
         </div>
 	</footer>
 </body>
