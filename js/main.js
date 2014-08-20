@@ -28,6 +28,7 @@ $(document).ready(function() {
     $('.doneHover').click(function() {
         var itemId = $(this).attr('id');
         console.log(itemId);
+        $('body, html').css('overflow', 'hidden');
         $('.show').find('.' + itemId).find('img').attr('src', 'img/done/'+itemId+'.jpg');
         $('.show').find('.' + itemId).fadeIn(300, 'swing');
 
@@ -36,6 +37,7 @@ $(document).ready(function() {
     //hide portfolio details
     $('.show-item .close').click(function() {
         $('.show-item').fadeOut(300, 'swing');
+        $('body, html').css('overflow-x', 'visible');
     });
 
 
