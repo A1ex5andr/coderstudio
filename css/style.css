@@ -1070,8 +1070,10 @@ footer {
     .show-item-pic {
       margin: 30px; }
       .show-item-pic .showPic {
-        width: 100%;
-        border: 1px solid #ffffff; }
+        max-width: 100%;
+        border: 1px solid #ffffff;
+        margin: 0 auto;
+        display: block; }
   .show .close:hover {
     background: #F03C5D;
     color: #FFF;

@@ -580,7 +580,10 @@ footer {
       &-pic {
         margin: 30px;
         .showPic {
-          width: 100%;
+          max-width: 100%;
+          border: 1px solid #ffffff;
+          margin: 0 auto;
+          display: block;
           border: 1px solid #ffffff;
         }
       }
