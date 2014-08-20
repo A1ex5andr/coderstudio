@@ -28,7 +28,9 @@ $(document).ready(function() {
     $('.doneHover').click(function() {
         var itemId = $(this).attr('id');
         console.log(itemId);
+        $('.show').find('.' + itemId).find('img').attr('src', 'img/done/'+itemId+'.jpg');
         $('.show').find('.' + itemId).fadeIn(300, 'swing');
+
     });
 
     //hide portfolio details

@@ -195,97 +195,97 @@
 
             <div class="done-item">
                 <img src="img/done/ethnocase_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-                <div class="doneHover" id="0012">
+                <div class="doneHover" id="ethnocase">
                     <span class="doneTitle">Етнокейс</span>
                 </div>
             </div>
             <div class="done-item">
                 <img src="img/done/uptrade_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-                <div class="doneHover" id="0013">
+                <div class="doneHover" id="uptrade">
                     <span class="doneTitle">Аптрейд</span>
                 </div>
             </div>
             <div class="done-item">
                 <img src="img/done/iqf_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-                <div class="doneHover" id="0014">
+                <div class="doneHover" id="iqf">
                     <span class="doneTitle">IQ Social</span>
                 </div>
             </div>
             <div class="done-item">
                 <img src="img/done/uwc_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-                <div class="doneHover" id="0015">
+                <div class="doneHover" id="uwc">
                     <span class="doneTitle">UWC</span>
                 </div>
             </div>
             <div class="done-item">
                 <img src="img/done/prodlink_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-                <div class="doneHover" id="0016">
+                <div class="doneHover" id="prodlink">
                     <span class="doneTitle">Prodlink</span>
                 </div>
             </div>
             <div class="done-item">
                 <img src="img/done/organic_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-                <div class="doneHover" id="0008">
+                <div class="doneHover" id="organic">
                     <span class="doneTitle">Органик<br> Маркет</span>
                 </div>
             </div>
             <div class="done-item">
                 <img src="img/done/partyzan_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-                <div class="doneHover" id="0009">
+                <div class="doneHover" id="partyzan">
                     <span class="doneTitle">PaRtyzan</span>
                 </div>
             </div>
             <div class="done-item">
                 <img src="img/done/qtrade_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-                <div class="doneHover" id="0010">
+                <div class="doneHover" id="qtrade">
                     <span class="doneTitle">qtrade</span>
                 </div>
             </div>
             <div class="done-item">
                 <img src="img/done/sport_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-                <div class="doneHover" id="0011">
+                <div class="doneHover" id="sport">
                     <span class="doneTitle">Спорт<br> центр</span>
                 </div>
             </div>
 			<div class="done-item">
 				<img src="img/done/blagomed_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-				<div class="doneHover" id="0001">
+				<div class="doneHover" id="blagomed">
 					<span class="doneTitle">Благомед</span>
 				</div>
 			</div>
 			<div class="done-item">
 				<img src="img/done/customs_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-				<div class="doneHover" id="0002">
+				<div class="doneHover" id="customs">
 					<span class="doneTitle">Таможенное<br> Оформление</span>
 				</div>
 			</div>
 			<div class="done-item">
 				<img src="img/done/ellkor_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-				<div class="doneHover" id="0003">
+				<div class="doneHover" id="ellkor">
 					<span class="doneTitle">Еллкор<br> Услуги</span>
 				</div>
 			</div>
 			<div class="done-item">
 				<img src="img/done/immobilien_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-				<div class="doneHover" id="0004">
+				<div class="doneHover" id="immobilien">
 					<span class="doneTitle">Компания<br> Еллкор</span>
 				</div>
 			</div>
 			<div class="done-item">
 				<img src="img/done/jobdisperse_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-				<div class="doneHover" id="0005">
+				<div class="doneHover" id="jobdisperse">
 					<span class="doneTitle">job<br> disperse</span>
 				</div>
 			</div>
 			<div class="done-item">
 				<img src="img/done/koval33_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-				<div class="doneHover" id="0006">
+				<div class="doneHover" id="koval33">
 					<span class="doneTitle">koval33</span>
 				</div>
 			</div>
 			<div class="done-item">
 				<img src="img/done/megatrade_s.jpg" alt="веб сайт создан coderstudio" class="donePic">
-				<div class="doneHover" id="0007">
+				<div class="doneHover" id="megatrade">
 					<span class="doneTitle">megatrade</span>
 				</div>
 			</div>
@@ -296,7 +296,7 @@
 
 	<!-- START of done -->
 	<section class="show">
-		<div class="show-item 0001">
+		<div class="show-item blagomed">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -315,11 +315,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/blagomed.jpg" alt="" class="showPic">
+					<img src="" alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0002">
+		<div class="show-item customs">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -339,11 +339,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/customs.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0003">
+		<div class="show-item ellkor">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -358,11 +358,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/ellkor.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0004">
+		<div class="show-item immobilien">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -381,11 +381,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/immobilien.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0005">
+		<div class="show-item jobdisperse">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -404,11 +404,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/jobdisperse.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0006">
+		<div class="show-item koval33">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -427,11 +427,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/koval33.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0007">
+		<div class="show-item megatrade">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -449,11 +449,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/megatrade.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0008">
+		<div class="show-item organic">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -471,11 +471,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/organic.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0009">
+		<div class="show-item partyzan">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -494,11 +494,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/partyzan.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0010">
+		<div class="show-item qtrade">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -518,11 +518,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/qtrade.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0011">
+		<div class="show-item sport">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -540,11 +540,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/sport.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0012">
+		<div class="show-item ethnocase">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -564,11 +564,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/ethnocase.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0013">
+		<div class="show-item uptrade">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -584,11 +584,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/uptrade.jpg" alt="" class="showPic">
+					<img  alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0014">
+		<div class="show-item iqf">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -604,11 +604,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/iqf.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0015">
+		<div class="show-item uwc">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -625,11 +625,11 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/uwc.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
-		<div class="show-item 0016">
+		<div class="show-item prodlink">
 			<div class="container">
 				<div class="show-item-data">
 					<span class="close">x</span>
@@ -645,7 +645,7 @@
 					</div>
 				</div>
 				<div class="show-item-pic">
-					<img src="img/done/prodlink.jpg" alt="" class="showPic">
+					<img alt="" class="showPic">
 				</div>
 			</div>
 		</div>
