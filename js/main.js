@@ -37,7 +37,7 @@ $(document).ready(function() {
     //hide portfolio details
     $('.show-item .close').click(function() {
         $('.show-item').fadeOut(300, 'swing');
-        $('body, html').css('overflow-x', 'visible');
+        $('body, html').css('overflow-y', 'visible');
     });
 
 
