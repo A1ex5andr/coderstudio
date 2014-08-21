@@ -757,7 +757,7 @@ img[src=""] {
 .know-item {
   position: relative;
   margin: 10px;
-  border: 1px solid #d1d1d1;
+  border: 1px solid #3e96c7;
   border-radius: 2px 30px;
   background: white; }
   .know-item-details {
@@ -773,7 +773,9 @@ img[src=""] {
     text-align: right;
     font-size: 20px;
     padding: 8px 30px 0 70px;
-    color: #3e96c7; }
+    color: #2a82b3;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif; }
   .know-item .fa {
     width: 32px;
     height: 32px;
@@ -1071,7 +1073,6 @@ footer {
       margin: 30px; }
       .show-item-pic .showPic {
         max-width: 90%;
-        border: 1px solid #ffffff;
         margin: 0 auto;
         display: block;
         border: 1px solid #ffffff; }
