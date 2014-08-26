@@ -661,7 +661,7 @@
 					e-mail или телефон. <br>
 					<span>Мы с вами свяжемся. </span>
 				</p>
-				<form action="#" method="POST" class="contactForm">
+				<form action="mail.php" method="POST" class="contactForm">
 	                <input type="text" class="contactForm-input" name="email" id="email" placeholder="e-mail или телефон" required="">
 	               <button class="contactForm-submit" type="submit"><i class="fa fa-paper-plane-o"></i></button>
 	            </form>
