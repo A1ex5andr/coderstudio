@@ -155,7 +155,7 @@
     float: right;
     width: auto;
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     border-top: 1px solid #FFF;
     position: relative; }
 
@@ -172,7 +172,7 @@
 
   .nav-collapse .lang a:hover {
     border-bottom: transparent;
-    background: #60B1DE; } }
+    background: #3E96C7; } }
 @media screen and (min-width: 992px) {
   .nav-collapse {
     margin-bottom: 20px; } }
@@ -611,7 +611,7 @@ html, body {
   overflow-x: hidden; }
 
 body {
-  background: white;
+  background: #ffffff;
   margin: 0;
   padding: 0;
   color: #333333;
@@ -637,12 +637,12 @@ a {
 .close {
   float: right;
   font-weight: 700;
-  color: #f03c5d;
-  background: white;
+  color: #F03C5D;
+  background: #ffffff;
   width: 30px;
   height: 30px;
   text-align: center;
-  border: 2px solid #f03c5d;
+  border: 2px solid #F03C5D;
   font-size: 26px;
   cursor: pointer;
   transition: all 300ms ease; }
@@ -671,21 +671,22 @@ img[src=""] {
 =============================================*/
 .head {
   position: relative;
-  background-color: #3e96c7;
+  background-color: #3E96C7;
   padding-bottom: 10px;
-  border-top: 2px solid #436D8C;
   border-bottom: 2px solid #436D8C; }
 
-.topLine .logo {
-  font-family: "Montserrat", sans-serif;
-  font-size: 32px;
-  float: left;
-  margin: 20px 0;
-  padding: 0 10px;
-  color: white;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  position: absolute; }
+.topLine {
+  background-color: #5cb4e5; }
+  .topLine .logo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    float: left;
+    margin: 20px 0;
+    padding: 0 10px;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    position: absolute; }
 
 /* language part in navigation */
 /* extending _responsive-nav.scss */
@@ -701,9 +702,9 @@ img[src=""] {
   padding: 0;
   text-transform: lowercase; }
   .lang li:first-child {
-    border-right: 1px solid #3e96c7; }
+    border-right: 1px solid #3E96C7; }
   .lang li:last-child {
-    border-left: 1px solid #3e96c7; }
+    border-left: 1px solid #3E96C7; }
   .lang li a {
     font-weight: 100; }
 
@@ -738,7 +739,7 @@ img[src=""] {
   .slogan h1 {
     color: #000; }
   .slogan h2 {
-    color: white; }
+    color: #ffffff; }
 
 .techs {
   padding-top: 40px; }
@@ -746,20 +747,20 @@ img[src=""] {
     font-size: 12px;
     color: #FFF; }
   .techs span {
-    color: #6cdcf6;
+    color: #6CDCF6;
     font-weight: 100; }
 
 .knowWrap {
-  background: white url("../img/bg.png") left top repeat; }
+  background: #FFF url("../img/bg.png") left top repeat; }
 
 .know-item-container {
   padding: 10px; }
 .know-item {
   position: relative;
   margin: 10px;
-  border: 1px solid #3e96c7;
+  border: 1px solid #3E96C7;
   border-radius: 2px 30px;
-  background: white; }
+  background: #ffffff; }
   .know-item-details {
     text-align: justify;
     text-indent: 46px;
@@ -787,19 +788,19 @@ img[src=""] {
     color: white;
     text-align: center;
     padding: 11px 8px 4px 8px;
-    background: #3e96c7; }
+    background: #3E96C7; }
   .know-item .fa-mobile {
     font-size: 38px;
     line-height: 22px; }
 
 .canWrap {
-  background: #d1d06b url("../img/bg.png") left top repeat;
+  background: #D1D06B url("../img/bg.png") left top repeat;
   border-top: 2px solid;
   border-bottom: 2px solid;
   border-color: #C0AE00; }
 
 .can .aTitle {
-  color: white; }
+  color: #ffffff; }
 .can-item {
   text-align: center; }
   .can-item a {
@@ -821,7 +822,7 @@ img[src=""] {
       font-weight: 700;
       transition: all 500ms ease;
       color: #111111;
-      background-color: #fae62a;
+      background-color: #FAE62A;
       border-color: #968200;
       outline: 0;
       display: block;
@@ -830,7 +831,7 @@ img[src=""] {
       margin-right: auto; }
 
 .doneWrap {
-  background: white url("../img/bg.png") left top repeat; }
+  background: #FFF url("../img/bg.png") left top repeat; }
 
 .done-item {
   -moz-box-sizing: border-box;
@@ -843,7 +844,7 @@ img[src=""] {
   margin: 10px auto 20px;
   overflow: hidden; }
 .done .donePic {
-  border: 1px solid #d1d1d1;
+  border: 1px solid #D1D1D1;
   background: #FFF;
   width: 90%;
   max-width: 320px;
@@ -861,8 +862,8 @@ img[src=""] {
 
 .contactWrap {
   overflow: hidden;
-  background: #90d0ff url("../img/bg_geo.png") left top repeat;
-  border-top: 2px solid #436d8c;
+  background: #90D0FF url("../img/bg_geo.png") left top repeat;
+  border-top: 2px solid #436D8C;
   position: relative;
   padding-top: 50px; }
   .contactWrap .contactBgWrap {
@@ -892,7 +893,7 @@ img[src=""] {
     left: 0;
     width: 211px;
     padding: 2px 62px 2px 12px;
-    background: antiquewhite;
+    background: #FAEBD7;
     color: #004054;
     line-height: 40px;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.33);
@@ -912,7 +913,7 @@ img[src=""] {
     font-weight: 700;
     transition: all 500ms ease;
     color: #111111;
-    background-color: #fae62a;
+    background-color: #FAE62A;
     border-color: #968200;
     outline: 0;
     margin: 0;
@@ -925,11 +926,11 @@ img[src=""] {
     left: 252px; }
 
 footer {
-  background: #436d8c;
+  background: #436D8C;
   padding: 0;
   margin: 0; }
   footer p {
-    color: white;
+    color: #ffffff;
     font-family: "Montserrat", sans-serif;
     text-align: center;
     padding: 10px; }
@@ -964,8 +965,8 @@ footer {
       width: auto;
       margin: 0;
       padding: 0;
-      border-left: 0;
-      border-right: 0; }
+      border-left: 0 !important;
+      border-right: 0 !important; }
       .lang li a {
         text-align: center; }
 
@@ -1030,7 +1031,7 @@ footer {
       .done-item:hover .doneHover, .done-item:hover .doneTitle {
         display: block; }
   .done .doneHover {
-    background: #3e96c7;
+    background: #3E96C7;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -1046,7 +1047,7 @@ footer {
       font-size: 20px;
       font-weight: 700;
       font-family: "Ubuntu", sans-serif;
-      color: white;
+      color: #ffffff;
       text-transform: capitalize; }
 
   .show-item {
@@ -1058,7 +1059,7 @@ footer {
     z-index: 9999;
     overflow: auto; }
     .show-item-data {
-      color: white;
+      color: #ffffff;
       margin: 60px 30px 30px; }
       .show-item-data .showTitle {
         font-size: 32px;

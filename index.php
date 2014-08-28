@@ -17,8 +17,9 @@
 </head>
 <body>
 	<header class="head">
-		<section class="container">
+
 			<div class="topLine">
+                <div class="container">
 				<!-- <div class="logo">okCODERS</div> -->
 				<div class="logo">
 					<span class="logo-coder">Coder</span><span class="logo-studio">Studio</span>
@@ -56,6 +57,8 @@
 				</nav>
                 <div class="clear"></div>
 			</div>
+			</div>
+        <div class="container">
 			<div class="adv">
 				<div class="advWrap">
 					<div class="adv-item adv-html5">
@@ -94,7 +97,8 @@
 				<h2 class="slogan_3">ваши задачи</h2>
 				<h2 class="slogan_4">наш код!</h2>
 			</div>
-		</section>
+            <div class="clear"></div>
+		</div>
 	</header>
 
 	<!-- START of know -->

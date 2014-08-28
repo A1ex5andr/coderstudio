@@ -161,11 +161,12 @@ img[src=""] {
   position: relative;
   background-color: $colorBlue;
   padding-bottom: 10px;
-  border-top: 2px solid #436D8C;
+//  border-top: 2px solid #436D8C;
   border-bottom: 2px solid #436D8C;
 }
 
 .topLine {
+  background-color: $colorBlue+30;
   .logo {
     font-family: $fontMontserrat;
     font-size: 32px;
@@ -466,8 +467,8 @@ footer {
       width: auto;
       margin: 0;
       padding: 0;
-      border-left: 0;
-      border-right: 0;
+      border-left: 0!important;
+      border-right: 0!important;
       a {
         text-align: center;
       }
